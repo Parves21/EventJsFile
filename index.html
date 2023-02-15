@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Event file</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css file main/bootstrap.min.css">
+</head>
+
+<body class="container">
+
+    <header id="headerSection">
+
+        <section>
+            <h1 id="h1-tag">My name is Nur islam</h1>
+            <p id="description" class="paragraph-tag"
+                title="This is really going to very crazy, Yes its very crazyfull">
+                I am going to something crazy</p>
+            <button class="btn btn-outline-info" onclick="changeUp()">Change UpLine Text</button>
+        </section>
+        <br><br><br>
+
+        <div class="row g-4">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card bg-dark-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title">Body color change</h5>
+                        <p class="card-text">If you want to change background Red color of this page body then click
+                            bellow.</p>
+                        <a href="#" id="card-button" class="btn btn-danger">Make Red</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title">Body color change</h5>
+                        <p class="card-text">If you want to change background yellow color of this page body then click
+                            bellow.</p>
+                        <a href="#" id="card-button-2" class="btn btn-warning">Make Yellow</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title">Body color change</h5>
+                        <p class="card-text">If you want to change background green color of this page body then click
+                            bellow.</p>
+                        <a href="#" id="card-button-3" class="btn btn-success">Make Success</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card bg-dark-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title">Body color change</h5>
+                        <p class="card-text">If you want to change background blue color of this page body then click
+                            bellow.</p>
+                        <a href="#" id="card-button-4" class="btn btn-info">Make Skey Blue</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+        <section>
+            <h3 id="addNew">
+                My name is Nur Islam. I am Bangladeshi. I live in Bogura and grow up in both Dhaka and Bogura.
+                But I love Bogura more than Dhaka.
+                <pre>
+                   <h6> If you thing you are bad than listen to me,
+                    I am your Dad.</h6>
+                </pre>
+            </h3><br>
+            <textarea class="border-2 border-info" id="textArea" cols="50" rows="5"></textarea><br><br>
+            <button id="comentPush" class="btn btn-info">Comment</button>
+        </section>
+        <br><br><br>
+
+        <div>
+            <img src="images/action.png" onmouseover="newImg(this)" onmouseout="oldImg(this)">
+        </div><br><br><br>
+
+        <div>
+            <h2 class="bg-danger-subtle text-center border-1 rounded text-info-emphasis p-3" ondblclick=doubleClick()>
+                DoubleClick and Change <span class="text-white">White</span> Bacground Color</h2>
+        </div>
+
+    </header>
+
+    <main>
+        <br><br><br>
+        <section class="text-center">
+            <input id="delete-confirm" class="px-2 pb-2 text-center" type="text" placeholder="Please Enter: Delete">
+            <button id="btn-delete" class="btn btn-danger" disabled>Delete</button>
+        </section>
+        <br><br><br>
+    </main>
+    <br><br><br>
+
+    <script src="js file/bootstrap.min.js"></script>
+    <script src="js/event.js"></script>
+</body>
+
+</html>
